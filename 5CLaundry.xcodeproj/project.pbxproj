@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55ADF56F7747E105435D024A /* Pods_5CLaundry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693A40A4482FA99BADD36C5F /* Pods_5CLaundry.framework */; };
+		EF1A93821F194050005D6988 /* Preferences.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF1A93801F194050005D6988 /* Preferences.xcdatamodeld */; };
+		EF1A93851F19408D005D6988 /* ChooseSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A93841F19408D005D6988 /* ChooseSchoolViewController.swift */; };
+		EF1A93881F1940C9005D6988 /* shirtAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A93871F1940C9005D6988 /* shirtAnnotation.swift */; };
+		EF1A938A1F194398005D6988 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A93891F194398005D6988 /* CreditViewController.swift */; };
+		EFAA2E851F14518800FB776E /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAA2E841F14518800FB776E /* PayViewController.swift */; };
+		F326FF4D1EE5D9EC005CE76E /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F326FF4C1EE5D9EC005CE76E /* mapViewController.swift */; };
+		F326FF4F1EE5DA49005CE76E /* tabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F326FF4E1EE5DA49005CE76E /* tabViewController.swift */; };
+		F326FF521EE618AA005CE76E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F326FF511EE618AA005CE76E /* MapKit.framework */; };
+		F326FF561EE7107B005CE76E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F326FF551EE7107B005CE76E /* PageViewController.swift */; };
+		F326FF581EE73670005CE76E /* lookSharpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F326FF571EE73670005CE76E /* lookSharpViewController.swift */; };
+		F326FF5A1EE73CF7005CE76E /* stayCleanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F326FF591EE73CF7005CE76E /* stayCleanViewController.swift */; };
+		F326FF5C1EE748C0005CE76E /* deluxeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F326FF5B1EE748C0005CE76E /* deluxeViewController.swift */; };
+		F326FF5E1EE7490F005CE76E /* payAsYouGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F326FF5D1EE7490F005CE76E /* payAsYouGoViewController.swift */; };
+		F326FF601EE75443005CE76E /* dryCleaningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F326FF5F1EE75443005CE76E /* dryCleaningViewController.swift */; };
+		F370250A1EDE84E000CF9C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37025091EDE84E000CF9C43 /* AppDelegate.swift */; };
+		F370250C1EDE84E000CF9C43 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F370250B1EDE84E000CF9C43 /* homeViewController.swift */; };
+		F370250F1EDE84E000CF9C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F370250D1EDE84E000CF9C43 /* Main.storyboard */; };
+		F37025111EDE84E000CF9C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37025101EDE84E000CF9C43 /* Assets.xcassets */; };
+		F37025141EDE84E000CF9C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37025121EDE84E000CF9C43 /* LaunchScreen.storyboard */; };
+		F370251C1EDE921200CF9C43 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F370251B1EDE921200CF9C43 /* CustomButton.swift */; };
+		F370251E1EDF15CF00CF9C43 /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F370251D1EDF15CF00CF9C43 /* aboutViewController.swift */; };
+		F3C0F4F81F15C62A00362C5D /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0F4F71F15C62A00362C5D /* IntroViewController.swift */; };
+		F3C2AF231EE0B6620053AF42 /* contactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C2AF221EE0B6620053AF42 /* contactViewController.swift */; };
+		F3C2AF271EE3702E0053AF42 /* fAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C2AF261EE3702E0053AF42 /* fAQViewController.swift */; };
+		F3C2AF291EE3B1510053AF42 /* deliveryScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C2AF281EE3B1510053AF42 /* deliveryScheduleViewController.swift */; };
+		F3C2AF2B1EE3B95A0053AF42 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C2AF2A1EE3B95A0053AF42 /* SchoolTableViewCell.swift */; };
+		F3C2AF2F1EE3C1BF0053AF42 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C2AF2E1EE3C1BF0053AF42 /* School.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		283A0A0717B25D67EA706F1E /* Pods-5CLaundry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5CLaundry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-5CLaundry/Pods-5CLaundry.debug.xcconfig"; sourceTree = "<group>"; };
+		693A40A4482FA99BADD36C5F /* Pods_5CLaundry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_5CLaundry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C68A55037FBDFD76DA5085 /* Pods-5CLaundry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-5CLaundry.release.xcconfig"; path = "Pods/Target Support Files/Pods-5CLaundry/Pods-5CLaundry.release.xcconfig"; sourceTree = "<group>"; };
+		EF1A93811F194050005D6988 /* Preferences.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Preferences.xcdatamodel; sourceTree = "<group>"; };
+		EF1A93841F19408D005D6988 /* ChooseSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseSchoolViewController.swift; sourceTree = "<group>"; };
+		EF1A93861F194094005D6988 /* customAnnotation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = customAnnotation.playground; sourceTree = "<group>"; };
+		EF1A93871F1940C9005D6988 /* shirtAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shirtAnnotation.swift; sourceTree = "<group>"; };
+		EF1A93891F194398005D6988 /* CreditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
+		EFAA2E831F1450E700FB776E /* bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridging-header.h"; sourceTree = "<group>"; };
+		EFAA2E841F14518800FB776E /* PayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		F326FF4C1EE5D9EC005CE76E /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		F326FF4E1EE5DA49005CE76E /* tabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabViewController.swift; sourceTree = "<group>"; };
+		F326FF511EE618AA005CE76E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F326FF551EE7107B005CE76E /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		F326FF571EE73670005CE76E /* lookSharpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lookSharpViewController.swift; sourceTree = "<group>"; };
+		F326FF591EE73CF7005CE76E /* stayCleanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stayCleanViewController.swift; sourceTree = "<group>"; };
+		F326FF5B1EE748C0005CE76E /* deluxeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deluxeViewController.swift; sourceTree = "<group>"; };
+		F326FF5D1EE7490F005CE76E /* payAsYouGoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = payAsYouGoViewController.swift; sourceTree = "<group>"; };
+		F326FF5F1EE75443005CE76E /* dryCleaningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dryCleaningViewController.swift; sourceTree = "<group>"; };
+		F37025061EDE84E000CF9C43 /* 5CLaundry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5CLaundry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37025091EDE84E000CF9C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F370250B1EDE84E000CF9C43 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		F370250E1EDE84E000CF9C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F37025101EDE84E000CF9C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F37025131EDE84E000CF9C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F37025151EDE84E000CF9C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F370251B1EDE921200CF9C43 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F370251D1EDF15CF00CF9C43 /* aboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
+		F3C0F4F71F15C62A00362C5D /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		F3C2AF221EE0B6620053AF42 /* contactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactViewController.swift; sourceTree = "<group>"; };
+		F3C2AF261EE3702E0053AF42 /* fAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fAQViewController.swift; sourceTree = "<group>"; };
+		F3C2AF281EE3B1510053AF42 /* deliveryScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deliveryScheduleViewController.swift; sourceTree = "<group>"; };
+		F3C2AF2A1EE3B95A0053AF42 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		F3C2AF2E1EE3C1BF0053AF42 /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F37025031EDE84E000CF9C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F326FF521EE618AA005CE76E /* MapKit.framework in Frameworks */,
+				55ADF56F7747E105435D024A /* Pods_5CLaundry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072AD2380732EA6D152A773D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				283A0A0717B25D67EA706F1E /* Pods-5CLaundry.debug.xcconfig */,
+				D4C68A55037FBDFD76DA5085 /* Pods-5CLaundry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF1A937F1F193FD4005D6988 /* PayViews */ = {
+			isa = PBXGroup;
+			children = (
+				EFAA2E841F14518800FB776E /* PayViewController.swift */,
+				EF1A93891F194398005D6988 /* CreditViewController.swift */,
+				F326FF5F1EE75443005CE76E /* dryCleaningViewController.swift */,
+				F326FF5D1EE7490F005CE76E /* payAsYouGoViewController.swift */,
+				F326FF5B1EE748C0005CE76E /* deluxeViewController.swift */,
+				F326FF551EE7107B005CE76E /* PageViewController.swift */,
+				F326FF571EE73670005CE76E /* lookSharpViewController.swift */,
+				F326FF591EE73CF7005CE76E /* stayCleanViewController.swift */,
+			);
+			name = PayViews;
+			sourceTree = "<group>";
+		};
+		EF1A93831F194076005D6988 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				EF1A93871F1940C9005D6988 /* shirtAnnotation.swift */,
+				EF1A93841F19408D005D6988 /* ChooseSchoolViewController.swift */,
+				EF1A93861F194094005D6988 /* customAnnotation.playground */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		F326FF501EE618AA005CE76E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F326FF511EE618AA005CE76E /* MapKit.framework */,
+				693A40A4482FA99BADD36C5F /* Pods_5CLaundry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F37024FD1EDE84E000CF9C43 = {
+			isa = PBXGroup;
+			children = (
+				F37025081EDE84E000CF9C43 /* 5CLaundry */,
+				F37025071EDE84E000CF9C43 /* Products */,
+				F326FF501EE618AA005CE76E /* Frameworks */,
+				072AD2380732EA6D152A773D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F37025071EDE84E000CF9C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F37025061EDE84E000CF9C43 /* 5CLaundry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F37025081EDE84E000CF9C43 /* 5CLaundry */ = {
+			isa = PBXGroup;
+			children = (
+				F37025091EDE84E000CF9C43 /* AppDelegate.swift */,
+				EF1A93801F194050005D6988 /* Preferences.xcdatamodeld */,
+				F3C0F4F71F15C62A00362C5D /* IntroViewController.swift */,
+				F370251B1EDE921200CF9C43 /* CustomButton.swift */,
+				F370250B1EDE84E000CF9C43 /* homeViewController.swift */,
+				F3C2AF221EE0B6620053AF42 /* contactViewController.swift */,
+				F370251D1EDF15CF00CF9C43 /* aboutViewController.swift */,
+				F3C2AF261EE3702E0053AF42 /* fAQViewController.swift */,
+				F3C2AF2E1EE3C1BF0053AF42 /* School.swift */,
+				F3C2AF2A1EE3B95A0053AF42 /* SchoolTableViewCell.swift */,
+				F3C2AF281EE3B1510053AF42 /* deliveryScheduleViewController.swift */,
+				F326FF4C1EE5D9EC005CE76E /* mapViewController.swift */,
+				F326FF4E1EE5DA49005CE76E /* tabViewController.swift */,
+				EF1A93831F194076005D6988 /* Intro */,
+				EF1A937F1F193FD4005D6988 /* PayViews */,
+				F370250D1EDE84E000CF9C43 /* Main.storyboard */,
+				F37025101EDE84E000CF9C43 /* Assets.xcassets */,
+				F37025121EDE84E000CF9C43 /* LaunchScreen.storyboard */,
+				F37025151EDE84E000CF9C43 /* Info.plist */,
+				EFAA2E831F1450E700FB776E /* bridging-header.h */,
+			);
+			path = 5CLaundry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F37025051EDE84E000CF9C43 /* 5CLaundry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37025181EDE84E000CF9C43 /* Build configuration list for PBXNativeTarget "5CLaundry" */;
+			buildPhases = (
+				D6B379F7773081032306786B /* [CP] Check Pods Manifest.lock */,
+				F37025021EDE84E000CF9C43 /* Sources */,
+				F37025031EDE84E000CF9C43 /* Frameworks */,
+				F37025041EDE84E000CF9C43 /* Resources */,
+				B9D955A66E075D009DA14E1D /* [CP] Embed Pods Frameworks */,
+				A663006B54FD2C6AACE87458 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 5CLaundry;
+			productName = 5CLaundry;
+			productReference = F37025061EDE84E000CF9C43 /* 5CLaundry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F37024FE1EDE84E000CF9C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = 5CLaundry;
+				TargetAttributes = {
+					F37025051EDE84E000CF9C43 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FKP8644Z7D;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F37025011EDE84E000CF9C43 /* Build configuration list for PBXProject "5CLaundry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F37024FD1EDE84E000CF9C43;
+			productRefGroup = F37025071EDE84E000CF9C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F37025051EDE84E000CF9C43 /* 5CLaundry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F37025041EDE84E000CF9C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37025141EDE84E000CF9C43 /* LaunchScreen.storyboard in Resources */,
+				F37025111EDE84E000CF9C43 /* Assets.xcassets in Resources */,
+				F370250F1EDE84E000CF9C43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A663006B54FD2C6AACE87458 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-5CLaundry/Pods-5CLaundry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D955A66E075D009DA14E1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-5CLaundry/Pods-5CLaundry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6B379F7773081032306786B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F37025021EDE84E000CF9C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1A93851F19408D005D6988 /* ChooseSchoolViewController.swift in Sources */,
+				F3C2AF231EE0B6620053AF42 /* contactViewController.swift in Sources */,
+				F326FF5A1EE73CF7005CE76E /* stayCleanViewController.swift in Sources */,
+				F326FF4D1EE5D9EC005CE76E /* mapViewController.swift in Sources */,
+				F370250C1EDE84E000CF9C43 /* homeViewController.swift in Sources */,
+				F326FF561EE7107B005CE76E /* PageViewController.swift in Sources */,
+				F326FF601EE75443005CE76E /* dryCleaningViewController.swift in Sources */,
+				F370250A1EDE84E000CF9C43 /* AppDelegate.swift in Sources */,
+				F3C2AF2F1EE3C1BF0053AF42 /* School.swift in Sources */,
+				F326FF5C1EE748C0005CE76E /* deluxeViewController.swift in Sources */,
+				F3C2AF291EE3B1510053AF42 /* deliveryScheduleViewController.swift in Sources */,
+				EF1A93821F194050005D6988 /* Preferences.xcdatamodeld in Sources */,
+				F326FF5E1EE7490F005CE76E /* payAsYouGoViewController.swift in Sources */,
+				F3C2AF271EE3702E0053AF42 /* fAQViewController.swift in Sources */,
+				F370251E1EDF15CF00CF9C43 /* aboutViewController.swift in Sources */,
+				EFAA2E851F14518800FB776E /* PayViewController.swift in Sources */,
+				F326FF4F1EE5DA49005CE76E /* tabViewController.swift in Sources */,
+				EF1A93881F1940C9005D6988 /* shirtAnnotation.swift in Sources */,
+				F370251C1EDE921200CF9C43 /* CustomButton.swift in Sources */,
+				F3C2AF2B1EE3B95A0053AF42 /* SchoolTableViewCell.swift in Sources */,
+				F326FF581EE73670005CE76E /* lookSharpViewController.swift in Sources */,
+				F3C0F4F81F15C62A00362C5D /* IntroViewController.swift in Sources */,
+				EF1A938A1F194398005D6988 /* CreditViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F370250D1EDE84E000CF9C43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F370250E1EDE84E000CF9C43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F37025121EDE84E000CF9C43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F37025131EDE84E000CF9C43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F37025161EDE84E000CF9C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F37025171EDE84E000CF9C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F37025191EDE84E000CF9C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283A0A0717B25D67EA706F1E /* Pods-5CLaundry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FKP8644Z7D;
+				INFOPLIST_FILE = 5CLaundry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.5cLaundry.-CLaundry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "5CLaundry/bridging-header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F370251A1EDE84E000CF9C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C68A55037FBDFD76DA5085 /* Pods-5CLaundry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FKP8644Z7D;
+				INFOPLIST_FILE = 5CLaundry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.5cLaundry.-CLaundry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "5CLaundry/bridging-header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F37025011EDE84E000CF9C43 /* Build configuration list for PBXProject "5CLaundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37025161EDE84E000CF9C43 /* Debug */,
+				F37025171EDE84E000CF9C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37025181EDE84E000CF9C43 /* Build configuration list for PBXNativeTarget "5CLaundry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37025191EDE84E000CF9C43 /* Debug */,
+				F370251A1EDE84E000CF9C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF1A93801F194050005D6988 /* Preferences.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF1A93811F194050005D6988 /* Preferences.xcdatamodel */,
+			);
+			currentVersion = EF1A93811F194050005D6988 /* Preferences.xcdatamodel */;
+			path = Preferences.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F37024FE1EDE84E000CF9C43 /* Project object */;
+}

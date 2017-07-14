@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.2.0)
+  - CreditCardForm (0.1.0)
+  - NVActivityIndicatorView (3.6.1)
+  - Stripe (9.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CreditCardForm
+  - NVActivityIndicatorView
+  - Stripe
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  CreditCardForm: caa6d61c8871491b6c00fff4727a7e3e9c6f152d
+  NVActivityIndicatorView: 9f52a7f84bf5c6a798722c450fe3c198e01c56ed
+  Stripe: 0f41a33a6fa3ac76ee668d7df3e2680c28b8ab1a
+
+PODFILE CHECKSUM: f5a791104b7760d5366f2164465516db060ec280
+
+COCOAPODS: 1.2.1
