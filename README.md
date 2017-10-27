@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 # 5CLaundry
 Swift, Xcode 5CLaundry app
 
